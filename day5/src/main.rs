@@ -9,7 +9,7 @@ fn main() {
         .filter_map(|x| x.trim().parse::<isize>().ok())
         .collect();
 
-    // println!("part1: {}", part1(&prog)); // 223 too low
+    println!("part1: {}", part1(&prog)); // 223 too low
 
     println!("part2: {}", part2(&prog));
 }
